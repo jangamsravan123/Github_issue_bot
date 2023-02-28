@@ -1,0 +1,15 @@
+Features
+    • create an issue with text and attachment.
+    • create a label with given text and colour.
+    • label a issue  with a given label.
+    • search issue by issue number.
+    • list issues (filtered by label).
+    • link issues together.
+    • pick issue to work on⎯creates a branch to work on.
+    • raise PR for the issue.
+    • list, accept or close PR (with comment).
+        • accepting a PR will automatically merge code and close the PR and the related issue; if thr PR is linked to other PR/issue or the issue linked to the PR is linked to other issue/PR, the program will inform the user about the linked issue or PR and force the user to accept all or none.
+        • rejecting the PR will close the PR and tag the issue as PR-rejected.
+    • menu-driven client-side-only command line program.
+        • the program keeps every information it needs in the git issue entry only; it could be in form of structured issue title or informational comment.
+        • to link an issue with another issue or PR, add a comment e.g. "boring-linked-to:issue#10,pr#12" will link the commented issue/pr to issue #10 and pr #12.
